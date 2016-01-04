@@ -1,0 +1,18 @@
+/* Base Application Styles */
+body {
+  color: #fff;
+  background: #222;
+  text-align: center;
+}
+
+img {
+  margin: 20px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+  border:0;
+}
+
+button {
+  width:300px;
+}
