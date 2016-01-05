@@ -1,7 +1,7 @@
 import store from '../store'
 import $ from 'jquery'
 
-const apiKey = 'nbB4rfiLPbmnNnl6pWNnZtaxE9Qc1h4EEGHgPQjc'
+const apiKey = 'DEMO_KEY'
 
 export function getImages(camera,date){
   let searchString = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date='+date+'&camera='+camera+'&api_key='+apiKey+'';
